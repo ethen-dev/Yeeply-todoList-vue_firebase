@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <title>Todo_List_vue_firebase</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Todo_List_vue_firebase doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCeINQnAyLWtbbNSGHgHAuHowBkFLE420M",
+        authDomain: "todo-list-966fa.firebaseapp.com",
+        databaseURL: "https://todo-list-966fa.firebaseio.com",
+        projectId: "todo-list-966fa",
+        storageBucket: "todo-list-966fa.appspot.com",
+        messagingSenderId: "336939110178",
+        appId: "1:336939110178:web:e8d2d125b884b664"
+      };
+      
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
